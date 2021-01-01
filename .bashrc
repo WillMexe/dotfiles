@@ -189,3 +189,4 @@ find() {
 	fi
 }
 
+neofetch
