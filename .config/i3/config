@@ -10,7 +10,7 @@
 # Please see https://i3wm.org/docs/userguide.html for a complete reference!
 
 # class                 border  bground text    indicator child_border
-client.focused          #f9affa� #6272A4 #F8F8F2 #6272A4   #6272A4
+client.focused          #f9affa§ #6272A4 #F8F8F2 #6272A4   #6272A4
 client.focused_inactive #44475A #44475A #F8F8F2 #44475A   #44475A
 client.unfocused        #282A36 #282A36 #BFBFBF #282A36   #282A36
 client.urgent           #44475A #FF5555 #F8F8F2 #FF5555   #FF5555
@@ -160,10 +160,10 @@ bindsym $mod+Shift+e exec "i3-nagbar -t warning -m 'You pressed the exit shortcu
 mode "resize" {
         # These bindings trigger as soon as you enter the resize mode
 
-        # Pressing left will shrink the window’s width.
-        # Pressing right will grow the window’s width.
-        # Pressing up will shrink the window’s height.
-        # Pressing down will grow the window’s height.
+        # Pressing left will shrink the windowâ€™s width.
+        # Pressing right will grow the windowâ€™s width.
+        # Pressing up will shrink the windowâ€™s height.
+        # Pressing down will grow the windowâ€™s height.
         bindsym j resize shrink width 10 px or 10 ppt
         bindsym k resize grow height 10 px or 10 ppt
         bindsym l resize shrink height 10 px or 10 ppt
@@ -213,7 +213,7 @@ bindsym $mod+shift+v exec "pkill -USR1 polybar"
 
 # Disable window titlebars entirely
 border_radius 10
-for_window [class=".*"] border pixel 4
+for_window [class=".*"] border pixel 0
 
 new_window 1pixel
 
